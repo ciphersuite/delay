@@ -1,0 +1,7 @@
+node_modules/
+
+.env
+.env.local
+
+# Coverage reports (if you use test coverage tools)
+coverage/

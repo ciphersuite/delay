@@ -1,0 +1,30 @@
+{
+    "name": "@ciphersuite/delay",
+    "version": "1.0.0",
+    "description": "A tiny promise-based delay utility",
+    "type": "module",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ciphersuite/delay.git"
+    },
+    "keywords": [
+        "delay",
+        "timeout",
+        "promise",
+        "typescript",
+        "utility"
+    ],
+    "author": "CipherSuite",
+    "scripts": {
+        "build": "tsc",
+        "test": "vitest run --coverage",
+        "test:watch": "vitest watch"
+    },
+    "devDependencies": {
+        "@vitest/coverage-v8": "3.1.2",
+        "typescript": "5.0.0",
+        "vitest": "3.1.2"
+    }
+}
